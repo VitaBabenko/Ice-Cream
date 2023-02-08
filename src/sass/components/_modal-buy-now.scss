@@ -30,6 +30,10 @@
   background: transparent;
   border: 0;
   line-height: 0;
+  &:hover,
+  &:focus {
+    fill: var(--border-color-modal);
+  }
 }
 
 .modal-window__icon-close {
